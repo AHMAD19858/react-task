@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "./components/Counter";
 import ItemsList from "./components/ItemsList";
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
     }}>
      <h4> Part 1: Code Refactoring  </h4>
       <ItemsList />
+      </div>
+      <div>
+      <h4> Part 2: Performance Optimization  </h4>
+      <Counter />
       </div>
       </div>
     </div>
